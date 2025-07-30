@@ -144,7 +144,7 @@ function App() {
             </div>
             <div className="relative">
               <img
-                src="public/Oreo_balls.jpg"
+                src="Oreo_balls.jpg"
                 alt="Premium Chocolates"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
