@@ -20,7 +20,7 @@ function App() {
       name: "Choco Biscuits",
       price: 10.00,
       unit: "pc",
-      image: "public/choco_biscuits.jpg",
+      image: `${import.meta.env.BASE_URL}choco_biscuits.jpg`,
       rating: 4.9,
       description: "Rich, velvety dark chocolate truffles with a smooth ganache center",
       category: "biscuits"
@@ -30,7 +30,7 @@ function App() {
       name: "Almonds chocolates",
       price: 190,
       unit: "gm",
-      image: "public/almonds_chocolate.jpg",
+      image: `${import.meta.env.BASE_URL}/almonds_chocolate.jpg`,
       rating: 4.8,
       description: "Creamy milk chocolate hearts perfect for gifting",
       category: "chocolate"
@@ -40,7 +40,7 @@ function App() {
       name: "Oreo balls",
       price: 15,
       unit: "pc",
-      image: "public/Oreo_balls.jpg",
+      image: `${import.meta.env.BASE_URL}/Oreo_balls.jpg`,
       rating: 5.0,
       description: "Curated selection of our finest artisan chocolates",
       category: "chocolate balls"
@@ -50,7 +50,7 @@ function App() {
       name: "White Chocolate Pralines",
       price: 0,
       unit: "pc",
-      image: "public/choco_biscuits.jpg",
+      image: `${import.meta.env.BASE_URL}/choco_biscuits.jpg`,
       rating: 4.7,
       description: "Delicate white chocolate pralines with hazelnut filling",
       category: "pralines"
