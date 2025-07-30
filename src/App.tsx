@@ -20,7 +20,7 @@ function App() {
       name: "Choco Biscuits",
       price: 10.00,
       unit: "pc",
-      image: "src/public/choco_biscuits.jpg",
+      image: "public/choco_biscuits.jpg",
       rating: 4.9,
       description: "Rich, velvety dark chocolate truffles with a smooth ganache center",
       category: "biscuits"
@@ -30,7 +30,7 @@ function App() {
       name: "Almonds chocolates",
       price: 190,
       unit: "gm",
-      image: "src/public/almonds_chocolate.jpg",
+      image: "public/almonds_chocolate.jpg",
       rating: 4.8,
       description: "Creamy milk chocolate hearts perfect for gifting",
       category: "chocolate"
@@ -40,7 +40,7 @@ function App() {
       name: "Oreo balls",
       price: 15,
       unit: "pc",
-      image: "src/public/Oreo_balls.jpg",
+      image: "public/Oreo_balls.jpg",
       rating: 5.0,
       description: "Curated selection of our finest artisan chocolates",
       category: "chocolate balls"
@@ -50,7 +50,7 @@ function App() {
       name: "White Chocolate Pralines",
       price: 0,
       unit: "pc",
-      image: "src/public/choco_biscuits.jpg",
+      image: "public/choco_biscuits.jpg",
       rating: 4.7,
       description: "Delicate white chocolate pralines with hazelnut filling",
       category: "pralines"
@@ -144,7 +144,7 @@ function App() {
             </div>
             <div className="relative">
               <img
-                src="src/public/Oreo_balls.jpg"
+                src="public/Oreo_balls.jpg"
                 alt="Premium Chocolates"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
