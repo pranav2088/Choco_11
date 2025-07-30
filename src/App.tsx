@@ -272,7 +272,7 @@ function App() {
 
             <div className="text-center">
               <a
-                href="https://instagram.com/yourusername" // Replace with your actual IG handle
+                href="https://www.instagram.com/11_choco__11?igsh=MWJrMHZ0MW44anVvdA==" // Replace with your actual IG handle
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-amber-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
