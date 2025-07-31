@@ -265,9 +265,15 @@ function App() {
                 <Phone className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">Call Us</h3>
-              <a href="tel:7096674382" className="text-gray-300 hover:underline">
+              <a
+                href="https://wa.me/917096674382"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:underline"
+              >
                 +91 7096674382
               </a>
+
             </div>
 
             <div className="text-center">
