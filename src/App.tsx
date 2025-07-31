@@ -87,7 +87,7 @@ function App() {
               <Heart className="w-4 h-4 text-white" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-amber-600 to-orange-800 bg-clip-text text-transparent">
-              Choco_11:11
+              CHOCO_11:11
             </span>
           </div>
           <div className="md:hidden">
@@ -260,7 +260,6 @@ function App() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-
             <div className="text-center">
               <a
                 href="https://wa.me/917096674382"
@@ -303,57 +302,39 @@ function App() {
                 @11_CHOCO_11
               </a>
             </div>
-
-
           </div>
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="bg-gray-800 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-br from-amber-600 to-orange-800 rounded-full flex items-center justify-center">
-                  <Heart className="w-4 h-4 text-white" />
-                </div>
-                <span className="text-xl font-bold">Choco_11:11</span>
+          {/* Brand and Description */}
+          <div className="flex flex-col items-center text-center space-y-6">
+            <div className="flex items-center space-x-3">
+              <div className="w-10 h-10 bg-gradient-to-br from-amber-600 to-orange-800 rounded-full flex items-center justify-center">
+                <Heart className="w-5 h-5 text-white" />
               </div>
-              <p className="text-gray-300">
-                Passionately crafting premium chocolates – a new beginning inspired by tradition and love.
-              </p>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-4">Quick Links</h3>
-              <ul className="space-y-2 text-gray-300">
-                <li><a href="#home" className="hover:text-amber-400 transition-colors">Home</a></li>
-                <li><a href="#products" className="hover:text-amber-400 transition-colors">Products</a></li>
-                <li><a href="#about" className="hover:text-amber-400 transition-colors">About</a></li>
-                <li><a href="#contact" className="hover:text-amber-400 transition-colors">Contact</a></li>
-              </ul>
+              <span className="text-2xl font-bold tracking-wide">CHOCO_11:11</span>
             </div>
 
-            <div>
-              <h3 className="font-semibold mb-4">Newsletter</h3>
-              <p className="text-gray-300 mb-4">Join our journey — get the latest updates and sweet deals.</p>
-              <div className="flex">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="flex-1 px-4 py-2 rounded-l-full text-gray-900 focus:outline-none"
-                />
-                <button className="bg-amber-600 px-6 py-2 rounded-r-full hover:bg-amber-700 transition-colors">
-                  Subscribe
-                </button>
-              </div>
-            </div>
+            <p className="text-gray-300 text-base leading-relaxed max-w-2xl">
+              Passionately crafting premium chocolates – a new beginning inspired by tradition and love. <br />
+              Every bite is a celebration of flavor, care, and craftsmanship.
+            </p>
           </div>
-          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
-            <p>&copy; 2025 Choco_11:11. All rights reserved. Handcrafted with ❤️ and chocolate for a sweet beginning.</p>
+
+          {/* Bottom Text */}
+          <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400">
+            <p>
+              &copy; 2025 <span className="font-semibold text-white">CHOCO_11:11</span>. All rights reserved.
+              <br className="block md:hidden" />
+              Handcrafted with <span role="img" aria-label="heart">❤️</span> and chocolate for a sweet beginning.
+            </p>
           </div>
         </div>
       </footer>
+
+
 
     </div>
   );
