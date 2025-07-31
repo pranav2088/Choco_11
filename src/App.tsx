@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Heart, Star, Menu, X, Phone } from 'lucide-react';
-
+import { Heart, Star, Menu, X } from 'lucide-react';
+import { FaWhatsapp, FaInstagram } from "react-icons/fa"; // WhatsApp icon
 interface Product {
   id: number;
   name: string;
@@ -260,34 +260,50 @@ function App() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
+
             <div className="text-center">
-              <div className="bg-amber-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Phone className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-2">Call Us</h3>
               <a
                 href="https://wa.me/917096674382"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:underline"
+                className="block"
+              >
+                <div className="bg-green-500 w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center mx-auto mb-4 hover:opacity-90 transition">
+                  <FaWhatsapp className="text-white w-8 h-8 md:w-10 md:h-10" />
+                </div>
+              </a>
+              <h3 className="text-xl font-semibold text-white mb-2">Contact Us</h3>
+              <a
+                href="https://wa.me/917096674382"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:underline text-base md:text-lg"
               >
                 +91 7096674382
               </a>
-
             </div>
-
             <div className="text-center">
               <a
-                href="https://www.instagram.com/11_choco__11?igsh=MWJrMHZ0MW44anVvdA==" // Replace with your actual IG handle
+                href="https://www.instagram.com/11_choco__11?igsh=MWJrMHZ0MW44anVvdA=="
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-amber-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+                className="block"
               >
-                <i className="fa fa-instagram text-white text-2xl" aria-hidden="true"></i>
+                <div className="bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center mx-auto mb-4 hover:opacity-90 transition">
+                  <FaInstagram className="text-white w-7 h-7 md:w-9 md:h-9" />
+                </div>
               </a>
               <h3 className="text-xl font-semibold text-white mb-2">Instagram</h3>
-              <p className="text-gray-300">@11_CHOCO_11</p> {/* Replace with actual username */}
+              <a
+                href="https://www.instagram.com/11_choco__11?igsh=MWJrMHZ0MW44anVvdA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:underline text-base md:text-lg"
+              >
+                @11_CHOCO_11
+              </a>
             </div>
+
 
           </div>
         </div>
