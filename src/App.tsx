@@ -259,7 +259,7 @@ function App() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:flex justify-center gap-8">
             <div className="text-center">
               <a
                 href="https://wa.me/917096674382"
